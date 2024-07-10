@@ -32,6 +32,10 @@ Here’s how it generally works:
 
 3. Generation:
    - In the final step, a text generation model, often based on architectures like GPT (Generative Pre-trained Transformer), uses both the original input (e.g., a question or query) and the augmented information to generate a coherent and relevant response.
+<div style="text-align: center;">
+ <a href="">
+  <img src="https://github.com/bfium/text11-data-science-RAG/blob/main/input/img/images11-data%20science-RAG-illustration.png" />
+</a>
 
 # Advantages of RAG
 
