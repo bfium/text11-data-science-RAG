@@ -1,207 +1,151 @@
-# Paid Community Writer Programs
+<!-- markdownlint-disable MD041 -->
+<div style="text-align: center;">
+ <a href="">
+  <img src="" />
+</a>
 
-Paid writer programs usually have just enough of an incentive for people to get started creating developer content, besides the extra income it is an amazing opportunity for people to build a career out of it. For non-technical sites, have a look at [http://whopayswriters.com](http://whopayswriters.com).
+</div>
 
-A list of companies that have paid Developer Community Writer Programs.
+<hr />
+<p align="center">
+    <a href="#definition">What is RAG?</a> •
+    <a href="#advantages of RAG">Advantages of RAG</a> •
+    <a href="#Application Example">Application Example</a> •
+    <a href="#Associated Models">Associated Models</a> •
+    <a href="#RAG in Data Science">RAG in Data Science</a> •
+    <a href="#glossar">Glossar</a> •
+</p>
+<hr />
 
-- [100ms](https://www.100ms.live/technical-writer-program) - $200-$500 per article.
-  > Technical content and tutorials related to the 100ms SDKs.
+# What is RAG?
 
-- [Abstract API](https://www.abstractapi.com/write-for-us) - $100 per article.
-  > Technical content and tutorials related to the APIs in their catalogue.
+The term "Retrieval-Augmented Generation" (RAG) is an approach in natural language processing (NLP) that combines retrieval mechanisms with text generation networks to improve the quality and relevance of automatically generated responses. It was popularized by models developed by researchers at [Facebook AI Research](https://ai.facebook.com/) (FAIR).
 
-- [Adam the Automator](https://adamtheautomator.com/friends) - $100+ per article
-  > Technical tutorials on IT ops, cloud and DevOps topics. You can pick from a list of topics or pitch your own. Run by Microsoft MVP and built to help geeks write better and begin blogging.
+Here’s how it generally works:
 
-- [Adeva](https://adevait.com/write-for-us) - $200+ per article
-  > Technical guides, thought leadership content and resources for Engineering Managers.
+1. Retrieval:
+   - The first step involves using a retrieval component to fetch relevant information from a large knowledge base. This component can be a traditional search model or a neural retrieval model that extracts relevant passages from a vast collection of documents.
 
-- [Agora](https://www.agora.io/en/agora-content-contributor-program/) - $250 per article
-  > Technical content and tutorials for the Agora community.
+2. Augmentation:
+   - The retrieved information is then used to augment the context available to a text generation model. In other words, the retrieved passages serve as additional context that the text generator can use to produce a more informed and accurate response.
 
-- [Appsmith](https://blog.appsmith.com/launching-the-appsmith-writers-program) - $200-$400 per piece
-  > Internal tools, low code, open-source, databases, application performance, engineering best practices, JavaScript, and Appsmith.
+3. Generation:
+   - In the final step, a text generation model, often based on architectures like GPT (Generative Pre-trained Transformer), uses both the original input (e.g., a question or query) and the augmented information to generate a coherent and relevant response.
 
-- [Arctype](https://docs.google.com/document/d/1kBqDcEIKgSftvO-GeXjeqM7WNfaajSpCHm5AZaSyh-Q/edit?usp=sharing) - $100+ per article
-  > Technical guides, case studies, and thought leadership on SQL and Databases.
+# Advantages of RAG
 
-- [Auth0](https://auth0.com/guest-authors) - Up to $450 per piece
-  > Technical tutorials with code. Pick from a list of possible articles.
-
-- [Bejamas](https://bejamas.io/paid-writing-program/) - Pays between $100 to $750 depending on the article's technicality
-  > Jamstack, serverless and modern web development. Pitch a topic or pick from a list of possible articles
-
-- [CircleCI](https://circleci.com/blog/guest-writer-program/)  - Up to $300 per piece
-  > Technical tutorials with code. Pick from a list of possible articles.
-
-- [Clubhouse.io](https://clubhouse.io/clubhouse-write-earn-give-program/) - Up to $600 per piece
-  > Technical tutorials and how-to guides. Pick from a list of possible articles.
-
-- [Code Tuts+](https://code.tutsplus.com/articles/call-for-authors-write-for-tuts--cms-22034) - $100 (Quick tip) $250 (Tutorial)
-  > Technical focused articles. Pick from a list of possible articles.
-
-- [Code Magic](https://blog.codemagic.io/write-for-codemagic-ci-cd/) - Applications are currently closed.
-  > Technical focused articles. Specific on Flutter.
-
-- [ContentLab.io](https://contentlab.io/write-for-contentlab/) - Up to $500 per piece
-  > Articles on the Cloud, DevOps, Containers, AI/ML, Security, Web, and Gaming spaces.
-
-- [Couchbase](https://www.couchbase.com/community/community-writers-program) - $200 per piece
-  > Content area experts can submit tutorials and blog content.
-
-- [CSS Tricks](https://css-tricks.com/guest-posting/) - Around $250 per piece (depends on the length, research and audience)
-  > Technical focused articles. No limitation on topics.
-
-- [Cube Dev](https://www.notion.so/Cube-js-Guest-Authors-8ddd5046be9048d9869410b60d4a2b98) — Up to $300 per piece
-  > Technical tutotials and blog posts with code on [Cube.js](https://cube.dev), building analytical apps, data visualization, and data engineering. Pick from a list of possible articles or suggest your own.
-
-- [Deepsource](https://deepsource.io/tech-writer/) - Around $150 per piece  
-  > Technical Content concerning code quality, code review and static analysis
-
-- [Dev Spotlight](https://www.devspotlight.com/jobs/) - Around $300-$500 per piece depending on length and content
-  > Technical content production agency that works with many clients.
-
-- [Digital Ocean](https://www.digitalocean.com/write-for-donations/) - Up to $400 per piece **Applications currently on hold**
-
-  > Technical tutorials with code. Not limited to Digital Ocean products.
-
-- [Dockship](https://dockship.io/articles) - $20
-  > Machine Learning and Data Science. You need to be signed in to be able to create content.
-
-- [Doppler](https://www.doppler.com/tech-writer-program) - $500 per article
-  > Seeking deep-dive technical tutorials focussed on application security, secrets management, and developer tools.
-
-- [Draft.dev](https://draft.dev/#write) - Pays $300-$500 per piece
-  > Technical content agency that works with many clients. Writers who are accepted will get an email every 1-2 weeks with topics they can choose from.
-
-- [DZone](https://dzone.com/writers-zone) - Waiting for details
-  > Broad coverage of development topics, but with heavy Java content, working hard to push into new topics and channels.
-
-- [Egghead](https://next.egghead.io/write-for-egghead) - Waiting for details
-  > Intermediate to advanced articles covering topics on web development.
-
-- [Fauna](https://fauna.com/blog/write-with-fauna) - Up to $350 per piece **Applications currently on hold**
-  > Content focused on technical education around serverless development and FaunaDB.
-
-- [GraphCMS](https://graphcms.com/write-for-graphcms) - Up to $300 per piece
-  > Technical tutorials or blogs with code about GraphCMS or GraphQL with Jamstack or tooling of your choice.
-
-- [Hasura](https://blog.hasura.io/the-hasura-technical-writer-program/) - Up to $300 per piece
-  > Technical tutorials with code about Hasura or GraphQL.
-
-- [Hit Subscribe](https://www.hitsubscribe.com/apply-to-be-an-author/) - $100 per piece, $200 for 2x length and ghostwritten articles (Special articles).
-  > Technical content production agency that works with many clients.
-
-- [Honeybadger](https://www.honeybadger.io/blog/write-for-us/) - From $500 per piece
-  > Ruby and Elixir tutorials with code. Pick from a list of possible articles.
-
-- [ImageKit](https://form.asana.com/?hash=4a457043221411a8d81971bc930a6a932add03c8eaeec167cf1fee81db871953&id=1166170812623393) - $300 per piece
-  >  Content focused on technical guide on ImageKit and Image Optimization.
-
-- [Linode](https://www.linode.com/docs/contribute/) - Up to $300 per piece
-  > Technical tutorials with code on Linux or Linode.
-
-- [LoginRadius](https://www.loginradius.com/blog/async/page/guest-blog) - Up to $200 per piece
-  > Technical tutorials with code. Not limited to LoginRadius products.
-
-- [LogRocket](https://blog.logrocket.com/become-a-logrocket-guest-author-7d970eb673f9/) - Up to $350 per piece
-  > Technical tutorials with code. Write about anything frontend.
-
-- [Magic](https://magic-fortmatic.typeform.com/to/Wgzsocor) - Up to $300 per piece
-  [Link to Magic Website](https://magic.link/)
-  > Technical tutorials on how to use Magic
-
-- [Make Use Of](https://www.makeuseof.com/contributor/) - $120 per piece with performance benefits
-  > Tutorials and features about consumer apps and software products.
-
-- [Mixster](https://mixstersite.wordpress.com/2019/05/24/mixster/#more-2253)
-
-- [Nanonet](https://nanonets.com/blog/write-for-us/)
-  > Get paid to write about your favourite machine learning topics!
-
-- [Neptune](https://neptune.ai/write-for-us) - Up to $500 per article.
-  > Technical articles, how-to guides and tutorials on machine learning and data science.
-
-- [Okta](https://developer.okta.com/blog) - Paid through Toptal based on your hourly rate
-  > Technical tutorials and demos using Okta's products.
-
-- [Paperspace](https://blog.paperspace.com/write-for-paperspace/) - $200-$300 per piece
-  > Get paid to write articles about machine learning, data science, and more.
-
-- [PHP Architect](https://www.phparch.com/editorial/write-for-us/) - $175 per piece
-  > Thought leadership and technical articles about PHP.
-
-- [Postmark](https://postmarkapp.com/write-for-us) - $200-$300 per piece
-  > Applications are currently closed.
+- Improved relevance: By using retrieved information passages to feed the generator, the model can produce responses that are not only grammatically correct but also informed and factually relevant.
   
-- [QuickNode](https://quicknode.notion.site/quicknode/QuickNode-Authorship-Program-d808a87ee50b48c9a16ed19b13e09115) - $350 per piece
-  > Get paid to write articles about cryptocurrencies and web3/blockchain.
+- Handling vast knowledge: RAG allows combining the power of generative models with large information databases, which is particularly useful for applications like chatbots, question-answering systems, and informative text generation.
 
-- [Rancher](https://rancher.com/writing-program/roles/writer/) - $300 per piece
-  > Writing about devops, Kubernetes, and Rancher.
+# Application Example
 
-- [Real Python](https://realpython.com/write-for-us/) - Up to $300 per piece
-  > Technical tutorials with code. Pick from a list of possible articles.
+Imagine you have a question-answering system for an educational website. When a user asks a question on a specific topic like "What is Data Science?", the retrieval component of the RAG system could fetch relevant information from various sources (like articles, books, or technical documents). This information would then be passed to a generative model that uses this context to produce a precise and well-formulated response.
 
-- [Sanity.io](https://www.sanity.io/guest-authorship) - Up to $250 per piece
-  > Technical focused articles and how-to guides. Pick from a list of possible articles.
+# Associated Models
 
-- [Section.io](https://github.com/section-io/engineering-education) - $50 to $150 per article
-  > Engineering education blog where Computer Science university students may contribute content for pay.
+- OpenAI GPT-3 with an integrated retrieval component.
+- Models developed by FAIR such as DPR ([Dense Passage Retrieval](https://arxiv.org/abs/2004.04906)) coupled with [BART](https://arxiv.org/abs/1910.13461) or another generative architecture.
 
-- [SitePoint](https://sitepoint.typeform.com/to/DMmYfn) - $250 per article
-  > Broad coverage of development, design and the business ideas behind them. The JavaScript and PHP channels have the best traffic.
+# RAG in Data Science
 
-- [Smashing Magazine](https://www.smashingmagazine.com/write-for-us/) - $200 to $250 per article
-  > Technical focused articles. No limitation on topics.
+Using "Retrieval-Augmented Generation" (RAG) in the context of data science can pave the way for enhanced text generation applications offering more accurate and relevant responses. As a data scientist, you can leverage this combination of retrieval and generation in various use cases such as intelligent virtual assistants, question-answering systems (Q&A), document summarization, and more. Here is a systematic approach to applying RAG in a data science project:
 
-- [Software Engineering Daily](https://softwareengineeringdaily.com/write/)
+Using a "Retrieval-Augmented Generation" (RAG) approach to analyze nutritional data from a `.csv` file involves combining retrieval and text generation processes to provide detailed analyses and answers to specific questions. Here’s a step-by-step guide to achieve this:
 
-- [Soshace](https://docs.google.com/document/d/1DZ9Hj8AcNfHI6bC4bfTDIFRNIIFnda6Mkj_n_4x3hWw/edit) - $100 per piece
-  > Technical tutorials with code. Pick from a list of possible articles.
+### Step 1: Data Preparation
 
-- [StackOverflow](https://stackoverflow.blog/2020/01/27/blog-contributor-guidelines/?cb=1)
-  > Technical focused articles. No limitation on topics.
+1. Read the `.csv` file and load the data into a DataFrame.
+2. Prepare the data so it’s easily usable for retrieval.
 
-- [Strapi](https://strapi.io/write-for-the-community) - Up to $200 per piece
-  > Articles or tutorials with code covering use-cases, solutions and projects built with Strapi that include Vue, Open Source, JavaScript, GraphQL, Jamstack, React. Pick from a list of possible articles or pitch your own.
+```python
+import pandas as pd
 
-- [TakeShape](https://www.takeshape.io/jobs/contributing-writer/) - Up to $300 per piece
-  > Web dev tutorials with code. General frontend topics including, React, JavaScript, GraphQL, Jamstack. Pick from a list of possible articles or pitch your own.
+# Read the CSV file
+file_path = "path/to/nutritional_data.csv"
+data = pd.read_csv(file_path)
 
-- [Tech Beacon](https://techbeacon.com/write) - $400 per piece
-  > Broad coverage of development, DevOps, QA and security.
+# Examine the first few lines of the DataFrame
+print(data.head())
+```
 
-- [TechWell](https://www.techwell.com/techwell-submission-guidelines) - $200 per piece
-  > A wide variety of technical and business content is considered.
+### Step 2: Creating Passages for Retrieval
 
-- [TestDriven.io](https://testdriven.io/blog/) - $300-$500 per guest post
-  > Web development tutorials designed to teach critical skills needed to test, launch, scale, and optimize applications.
+1. Transform each row (or group of rows) into text passages describing the foods and their nutritional values.
+2. Store these passages in a structure that allows quick retrieval, such as a dictionary or an index.
 
-- [Topcoder](https://www.topcoder.com/thrive/articles/Submitting%20a%20Thrive%20Article) - $75 per piece
-  > Tutorials, workshops and articles are accepted. Get paid to write about Competitive Programming, Data Science, Design, Development, QA and/or Gig Work.
+```python
+passages = []
+for index, row in data.iterrows():
+    passage = f"The food item {row['Food']} contains {row['Calories']} calories, {row['Proteins']}g of proteins, {row['Fats']}g of fats, and {row['Carbohydrates']}g of carbohydrates."
+    passages.append(passage)
 
-- [Tutorialspoint](https://www.tutorialspoint.com/about/tutorials_writing.htm) - Up to $500 per piece
-  > In-depth tutorials on technical and business topics.
+# Example of a passage
+print(passages[0])
+```
 
-- [Twilio](https://go.twilio.com/twilio-voices/) - Up to $500 per piece
-  > Technical tutorials with code. Doesn't necessarily have to use Twilio.
+### Step 3: Indexing and Retrieval
 
-- [TypingDNA](https://www.typingdna.com/guest-author-program) - Up to $500 per piece
-  > Technical articles/tutorials related to TypingDNA.
+1. Use a retrieval model like TF-IDF or a dense model to index the passages.
+2. Install and use Faiss for fast vector-based search (optional but recommended for large datasets).
 
-- [Vonage](https://developer.nexmo.com/spotlight/) - $500 per piece
-  > Technical tutorials and general pieces on programming
+```python
+from sklearn.feature_extraction.text import TfidfVectorizer
 
-- [Vultr](https://www.vultr.com/docs/vultr-docs-program-guidelines) - Up to $600 per piece
-  > most topic take a look on Vultr document
+# Use TF-IDF for indexing and retrieval
+vectorizer = TfidfVectorizer().fit_transform(passages)
+vectorizer_dense = vectorizer.toarray()
+```
 
-- [WPHUB](https://www.wphub.com/write-for-us/) - $200 per piece
-  > Wordpress tutorials and articles.
+### Step 4: Text Generation
+
+1. Use a generation model like GPT-3 (or any similar model) to generate responses based on the retrieved information.
+
+```python
+from transformers import pipeline
+
+# Load the text generation pipeline (GPT-3 in this case)
+generator = pipeline('text-generation', model="gpt-3")
+
+def retrieve_and_generate(query, top_k=5):
+    """
+    Function to retrieve the most relevant passages and generate a response.
+    """
+    # Searches in passages using cosine similarity
+    from sklearn.metrics.pairwise import cosine_similarity
+    query_vec = vectorizer.transform([query])
+    similarities = cosine_similarity(query_vec, vectorizer).flatten()
+    relevant_indices = similarities.argsort()[-top_k:][::-1]
+    
+    relevant_passages = [passages[i] for i in relevant_indices]
+    context = " ".join(relevant_passages)
+    response = generator(f"{query} {context}", max_length=150)
+    return response[0]['generated_text']
+
+# Example usage
+query = "What are high-protein foods?"
+print(retrieve_and_generate(query))
+```
+
+### Step 5: Evaluation and Optimization
+
+1. Use quantitative and qualitative metrics to evaluate the relevance and accuracy of the generated responses.
+2. Optimize the model and indexing to improve performance.
+
 ---
-## Resources with similar lists
-- [Who Pays Technical Writers](https://whopaystechnicalwriters.com/)
 
+### Key Points:
 
-If you'd like to add an entry, fork the repo, make the change and send over a PR or [get in touch](https://twitter.com/malgamves) with me.
-# text11-data-science-RAG
+- Data Preparation: The quality of the data entered as text passages is crucial for effective retrieval.
+- Retrieval and Indexing: Use suitable techniques like TF-IDF for smaller datasets or dense retrieval models for larger datasets.
+- Text Generation: The generative model should effectively use the context provided by the retrieved passages to generate accurate responses.
+- Evaluation: Assess the results and adjust the pipeline accordingly to refine performance and relevance of responses.
+
+This approach will enable you to use RAG to analyze nutritional data efficiently, providing relevant responses based on a combination of retrieval and text generation.
+
+---
+
+### Glossary
+- TF-IDF: Term Frequency-Inverse Document Frequency, a statistical measure used to evaluate the importance of a word in a document relative to a corpus.
+
+--- 
