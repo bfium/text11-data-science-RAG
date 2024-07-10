@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD041 -->
 <div style="text-align: center;">
  <a href="">
-  <img src="" />
+  <img src="https://github.com/bfium/text11-data-science-RAG/blob/main/input/img/images11-data%20science-RAG.png" />
 </a>
 
 </div>
