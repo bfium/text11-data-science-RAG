@@ -1,4 +1,4 @@
-<!-- markdownlint-disable MD041 -->
+<!-- markdown-disable MD041 -->
 <div style="text-align: center;">
  <a href="">
   <img src="https://github.com/bfium/text11-data-science-RAG/blob/main/input/img/images11-data%20science-RAG.png" />
@@ -13,7 +13,7 @@
     <a href="#Application Example">Application Example</a> •
     <a href="#Associated Models">Associated Models</a> •
     <a href="#RAG in Data Science">RAG in Data Science</a> •
-    <a href="#glossar">Glossar</a> •
+    <a href="#Glossar">Glossar</a> •
 </p>
 <hr />
 
@@ -51,12 +51,12 @@ Imagine you have a question-answering system for an educational website. When a 
 
 Using "Retrieval-Augmented Generation" (RAG) in the context of data science can pave the way for enhanced text generation applications offering more accurate and relevant responses. As a data scientist, you can leverage this combination of retrieval and generation in various use cases such as intelligent virtual assistants, question-answering systems (Q&A), document summarization, and more. Here is a systematic approach to applying RAG in a data science project:
 
-Using a "Retrieval-Augmented Generation" (RAG) approach to analyze nutritional data from a `.csv` file involves combining retrieval and text generation processes to provide detailed analyses and answers to specific questions. Here’s a step-by-step guide to achieve this:
+For example analyzing nutritional data from a `.csv` file involves combining retrieval and text generation processes to provide detailed analyses and answers to specific questions. Here’s a step-by-step guide to achieve this:
 
 ### Step 1: Data Preparation
 
 1. Read the `.csv` file and load the data into a DataFrame.
-2. Prepare the data so it’s easily usable for retrieval.
+2. Prepare the data so that it’s easily usable for retrieval.
 
 ```python
 import pandas as pd
